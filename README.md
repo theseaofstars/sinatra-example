@@ -4,18 +4,7 @@ Sinatra on OpenShift
 This git repository will help you get up and running quickly with Sinatra on OpenShift.
 
 
-Running on OpenShift
-----------------------------
-
-Create an account at https://www.openshift.com
-
-Create a ruby application
-
-    rhc app create sinatra ruby-1.9 --from-code https://github.com/openshift/sinatra-example.git
-
-That's it, you can now checkout your application at
-
-    http://sinatra-$yournamespace.rhcloud.com
+The easiest way to deploy Sinatra on OpenShift is using the [QuickStart on the OpenShift Hub](https://hub.openshift.com/quickstarts/118-sinatra)
 
 
 Configuring the Modular/Object, Views, or Mustache example code to run on OpenShift
