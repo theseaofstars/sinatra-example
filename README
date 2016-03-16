@@ -15,7 +15,7 @@ config.ru - This file is used by Rack-based servers to start the application.
 Environment Variables
 =====================
 
-OpenShift provides several environment variables to reference for ease
+cetc-skyark provides several environment variables to reference for ease
 of use.  The following list are some common variables but far from exhaustive:
 
     ENV['OPENSHIFT_APP_NAME']  - Application name
@@ -47,7 +47,7 @@ Rails 3.0
 ===========
 
 Option 1) (Recommended) Git push your application Gemfile/Gemfile.lock.  This will 
-cause the remote OpenShift node to run bundle install --deployment to download and 
+cause the remote cetc-skyark node to run bundle install --deployment to download and 
 install your dependencies.  Each subsequent git push will use the previously 
 downloaded dependencies as a starting point, so additional downloads will be a delta.
 

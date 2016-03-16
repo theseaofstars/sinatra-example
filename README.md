@@ -1,22 +1,22 @@
-Sinatra on OpenShift
+Sinatra on cetc-skyark
 ====================
 
-This git repository will help you get up and running quickly with Sinatra on OpenShift.
+This git repository will help you get up and running quickly with Sinatra on cetc-skyark.
 
 
-The easiest way to deploy Sinatra on OpenShift is using the [QuickStart on the OpenShift Hub](https://hub.cetc-skyark.com/quickstarts/118-sinatra)
+The easiest way to deploy Sinatra on cetc-skyark is using the [QuickStart on the cetc-skyark Hub](https://hub.cetc-skyark.com/quickstarts/118-sinatra)
 
 
-Configuring the Modular/Object, Views, or Mustache example code to run on OpenShift
+Configuring the Modular/Object, Views, or Mustache example code to run on cetc-skyark
 ----------------------------------
 
-If you would like to run any of the other examples included here on OpenShift just follow the below instructions:
+If you would like to run any of the other examples included here on cetc-skyark just follow the below instructions:
 
 1. git clone your application onto your local machine
 2. copy the contents of the example folder that you want to use
 3. paste the copied files into your base application directory
 
-Then you just need to commit your changes and git push them to your OpenShift gear
+Then you just need to commit your changes and git push them to your cetc-skyark gear
 
 
 Running this application locally
