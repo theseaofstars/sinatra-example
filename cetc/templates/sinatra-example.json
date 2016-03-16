@@ -1,0 +1,29 @@
+{
+      "kind": "ImageStream",
+      "apiVersion": "v1",
+      "metadata": {
+        "name": "sinatra-example",
+        "annotations": {
+            "openshift.io/image.insecureRepository": "true"
+        }
+      },
+      "spec": {
+        "tags": [
+          {
+            "name": "1.0",
+            "annotations": {
+              "description": "sinatra applications",
+              "iconClass": "icon-ruby",
+              "tags": "builder,ruby,private-instant-app,sinatra",
+              "supports": "ruby:2.0,ruby",
+              "version": "1.0",
+              "sampleRepo": "https://github.com/theseaofstars/sinatra-example.git"
+            },
+            "from": {
+              "Kind": "DockerImage",
+              "Name": "registry.cetc-cloud.com:5000/ruby-20-rhel7:latest"
+            }
+          }
+        ]
+      }
+    }

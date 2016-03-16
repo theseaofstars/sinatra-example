@@ -6,10 +6,10 @@ tmp/ - Temporary storage
 public/ - Content (images, css, etc. available to the public)
 config.ru - This file is used by Rack-based servers to start the application.
 ../data - For persistent data
-.openshift/action_hooks/pre_build - Script that gets run every git push before the build
-.openshift/action_hooks/build - Script that gets run every git push as part of the build process (on the CI system if available)
-.openshift/action_hooks/deploy - Script that gets run every git push after build but before the app is restarted
-.openshift/action_hooks/post_deploy - Script that gets run every git push after the app is restarted
+.cetc-skyark/action_hooks/pre_build - Script that gets run every git push before the build
+.cetc-skyark/action_hooks/build - Script that gets run every git push as part of the build process (on the CI system if available)
+.cetc-skyark/action_hooks/deploy - Script that gets run every git push after build but before the app is restarted
+.cetc-skyark/action_hooks/post_deploy - Script that gets run every git push after the app is restarted
 
 
 Environment Variables
@@ -33,7 +33,7 @@ If you embed MySQL, then:
     ENV['OPENSHIFT_MYSQL_DB_PASSWORD']  - DB Password
 
 To get a full list of environment variables, simply add a line in your
-.openshift/action_hooks/build script that says "export" and push.
+.cetc-skyark/action_hooks/build script that says "export" and push.
 
 
 Notes about layout

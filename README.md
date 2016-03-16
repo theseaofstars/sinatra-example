@@ -4,7 +4,7 @@ Sinatra on OpenShift
 This git repository will help you get up and running quickly with Sinatra on OpenShift.
 
 
-The easiest way to deploy Sinatra on OpenShift is using the [QuickStart on the OpenShift Hub](https://hub.openshift.com/quickstarts/118-sinatra)
+The easiest way to deploy Sinatra on OpenShift is using the [QuickStart on the OpenShift Hub](https://hub.cetc-skyark.com/quickstarts/118-sinatra)
 
 
 Configuring the Modular/Object, Views, or Mustache example code to run on OpenShift
